@@ -16,6 +16,8 @@ screen = pygame.display.set_mode((w, h))
 
 #Title and Icon
 pygame.display.set_caption('Exploration')
+sprite = pygame.image.load('ship1.png')
+pygame.display.set_icon(sprite)
 
 #Declaring some key variables
 score=0
